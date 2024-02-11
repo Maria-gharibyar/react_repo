@@ -7,9 +7,7 @@ const GetPokemon=()=>{
         axios.get('https://pokeapi.co/api/v2/pokemon?limit=837&offset=0')
         .then(repo=>{setResponse(repo.data.results)})
     },[])
-        const Pokemon=()=>{
-           
-        }
+    
         return(
             <>
             {
